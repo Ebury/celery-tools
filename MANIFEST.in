@@ -1,0 +1,8 @@
+include LICENSE
+include CHANGELOG
+include README.rst
+include CONTRIBUTORS.rst
+recursive-exclude dist *
+recursive-exclude * *.pyc
+recursive-exclude * __pycache__
+prune docs/build
